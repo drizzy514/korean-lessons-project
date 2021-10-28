@@ -1,0 +1,71 @@
+.korean-books{
+    display: flex;
+    align-items: center;
+    padding-left: 101px;
+    margin-top: 58px;
+    position: relative;
+    .korean-books__title{
+        font-family: "Mulish" , sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 48px;
+        &::after{
+            content: "";
+            display: block;
+            width: 56px;
+            height: 2px;
+            background-color: #000;
+        }
+    }
+    .korean-books__text{
+        font-family: "Mulish", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 30px;
+        width: 420px;
+        margin-right: 312px;
+        margin-top: 64px;
+        color:#7D7987;
+    }
+    .korean-books__btn{
+        padding: 15px 56px;
+        outline: none;
+        cursor: pointer;
+        background-color: #fff;
+        border: 1px solid #F4B531;
+        border-radius: 55px;
+        color: #F4B531;
+        font-family: "Mulish", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 45px;
+    }
+}
+
+.korean-books::after{
+    content: "";
+    display: block;
+    background:url("../Lib/png/vector3.png") no-repeat center center;
+    width: 822px;
+    height: 666px;
+    position: absolute;
+    right: -4%;
+    z-index: -1;
+}
+.korean-books::before{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 154px;
+    background: url("../Lib/png/our\ services.png") no-repeat center center;
+    position: absolute;
+    right: -59px;
+    top: -164px;
+}
+.korean-books__btn:hover{
+    background-color: #F4B531;
+    color: #fff;
+}

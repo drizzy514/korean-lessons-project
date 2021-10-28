@@ -1,0 +1,65 @@
+.header{
+   
+    padding-top: 66px;
+    display: flex;
+    align-items: center;
+    font-family: "Mulish", sans-serif;
+}
+.header__logo{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #233348;
+    margin: 0;
+}
+.header__list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-left: 177px;
+    .header__list-item{
+        margin-right: 57px;
+
+    }
+    .header__item-link{
+        text-decoration: none;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 23px;
+        color: #1F1534;
+        opacity: 0.5;
+        z-index: 2;
+    }
+}
+.header__auth{
+    margin-left: auto;
+    z-index: 2;
+    .header__login-link{
+        text-decoration: none;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 160%;
+        color: #000000;
+        margin-right: 10px;
+    }
+    .header__signup-link{
+        text-decoration: none;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        color:#6C6767;
+        border: 1px solid #ACACAC;
+        box-sizing: border-box;
+        padding: 11px 27px 13px 24px;
+        border-radius: 50px;
+        }
+}

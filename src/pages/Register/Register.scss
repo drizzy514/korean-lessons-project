@@ -1,0 +1,129 @@
+
+
+
+.signup-page{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+   
+}
+.signup-page::before{
+    content: "";
+    display: block;
+    background-color: #FDF0DC ;
+    width: 737px;
+    height: 971px;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    top: -13%;
+}
+
+.signup-page__form{
+    z-index: 2;
+    background: #FFFFFF;
+    opacity: 0.8;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px 0px 0px 20px;
+    display: flex;
+    margin-top: 45px;
+    margin-left: 17%;
+    flex-direction: column;
+    text-align: center;
+    padding: 61px 110px;
+    
+    .signup-page__title{
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 56px;
+
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        input{
+            margin-bottom: 25px;
+            outline: none;
+            background-color: #ffff;
+            border: 1px solid #FFA30C;
+            padding: 12px 22px;
+            border-radius: 8px;
+            box-sizing: border-box;
+          
+        }
+        .signup-page__btn{
+            padding: 17px 81px;
+            outline: none;
+            cursor: pointer;
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            border-radius: 8px;
+            border: none;
+            background-color: #FFA30C;
+            color: #fff;
+            margin-top: 28px;
+            
+        }
+    }
+}
+.signup-page__form::before{
+    content: "";
+    display: block;
+    background: url("../../components//Lib//png/element1.png") no-repeat center;
+    width: 189px;
+    height: 170px;
+    position: absolute;
+    left: -137px;
+    top: 108px;
+   z-index: -1;
+}
+.signup-page__login-link{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    margin-top: 14px;
+    color: #7D7987;
+    padding-bottom: 55px;
+}
+.signup-page__content{
+    padding-top: 97px;
+    text-align: center;
+    background-color: #FFFCF8;
+    position: relative;
+    margin-top: 46px;
+    z-index: 2;
+    .signup-page__content-title{
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        margin: 0;
+    }
+    p{
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 21px;
+        margin: 0;
+        margin-top: 14px;
+        color: #7D7987;
+    }
+}
+.signup-page__content::after{
+    content: "";
+    display: block;
+    background: url("../../components/Lib/png/element1.png") no-repeat center center;
+    width: 189px;
+    height: 170px;
+    position: absolute;
+    right: -144px;
+    bottom: 101px;
+    z-index: -1;
+}

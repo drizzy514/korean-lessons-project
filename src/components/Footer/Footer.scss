@@ -1,0 +1,121 @@
+.footer{
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    box-sizing: border-box;
+    margin-top: 250px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+   height: 281px;
+   position: relative;
+}
+.footer__content{
+    padding-left: 150px;
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+.footer__title{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0;
+    margin-right: 104px;
+}
+.footer__list{
+    list-style: none;
+    padding:0;
+    margin-right: 132px;
+    &:last-child{
+        margin-right: 0;
+    }
+}
+.footer__item-link{
+    font-family: Myanmar Text;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 46px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #8E8E8E;
+}
+.footer__item-title{
+    margin: 0;
+}
+.footer-contact{
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    padding: 54px;
+    right: 0;
+    top: -44%;
+    padding-top: 25px;
+    padding-right: 27px;
+    padding-bottom: 40px;
+}
+.footer-contact__social-title{
+    font-family: "Mulish", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    color: #161616;
+    margin-right: 54px;
+}
+.footer__social-media{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin-top: 82px;
+}
+.footer__social-item{
+    margin-right: 24px;
+    &:last-child{
+        margin-right: 0;
+    }
+}
+.footer-contact__title{
+    font-family: "Mulish" , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 56px;
+    margin: 0;
+
+}
+.location{
+    margin: 0;
+    margin-bottom: 35px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8E8E8E;
+}
+.footer-contact__location-number{
+    margin-top: -20px;
+    .numbers{
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color:#737373;
+        margin: 0;
+    }
+}
+.footer-end__title{
+    
+font-family: Mulish;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 60px;
+color: #ACACAC;
+text-align: center;
+}

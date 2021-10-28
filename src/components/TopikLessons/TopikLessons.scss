@@ -1,0 +1,48 @@
+.topik-lessons{
+    margin-top: 133px;
+    padding-left: 101px;
+}
+.topik-lessons__title{
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+}
+.topik-lessons__list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 997px;
+    margin-left: 71px;
+}
+.topik-lessons__list-item{
+    margin-right: 115px;
+    padding-bottom: 24px;
+    &:last-child{
+        margin-right: 0;
+    }
+    text-align: center;
+    .topik-lessons__item-title{
+        font-family: "Mulish" ,sans-serif;
+        font-style: normal;
+        color: #8E8E8E;
+        font-weight: normal;
+        font-size: 20px;
+        margin: 0;
+    }
+    .korean-title{
+        font-family: "Mulish" ,sans-serif;
+        font-style: normal;
+        color: #8E8E8E;
+        font-weight: normal;
+        font-size: 20px;
+    }
+}
+.topik-lessons__list-item:hover{
+    border: 1px solid #EAEAEA;
+    transition: 0.5s ease;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}

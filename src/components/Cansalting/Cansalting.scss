@@ -1,0 +1,90 @@
+.cansalting-section{
+    margin-top: 100px;
+    padding-left: 101px;
+    text-align: center;
+}
+.cansalting-section__title{
+    font-family: "Montserrat",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    margin: 0;
+    margin-left: -133px;
+}
+.cansalting-section__text{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #959595;
+    margin: 0;
+    margin-left: -133px;
+    margin-top: 16px;
+}
+.cansalting-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin-top: 47px;
+   
+}
+.cansalting-list__item{
+    margin-right: 15px;
+    // &:nth-child(3n){
+    //     display: grid;
+    // }
+}
+.cansalting-list__item-img{
+    position: relative;
+    z-index: -1;
+}
+.cansalting-item__desc{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 40px;
+    background: linear-gradient(0deg, #FFFFFF 67.04%, rgba(255, 255, 255, 0.38) 108.62%);
+    border-radius: 0 0 20px 20px;
+    margin-top: -82px;
+    z-index: 3; 
+    .item-title{
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        margin: 0;
+        margin-top: 6px;
+    }   
+    .item-text{
+        font-family: "Montserrat" ,sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        margin:0;
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+}
+.cansalting-section__btn{
+    padding: 15px 62px;
+    outline: none;
+    border: 1px solid #F1A501;
+    background-color: #fff;
+    border-radius: 55px;
+    box-sizing: border-box;
+    margin-top: 45px;
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #F1A501;
+    font-size: 18px;
+    margin-left: -150px;
+    cursor: pointer;
+    &:hover{
+            background-color: #F1A501;
+            color: #fff;
+    }
+}

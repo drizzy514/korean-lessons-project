@@ -1,0 +1,67 @@
+.first-level{
+    display: flex;
+    align-items: center;
+    width: 1013px;
+    margin: 0 auto;
+    margin-top: 55px;
+    position: relative;
+    .first-level__student-img{
+        margin-right: 141px;
+    }
+    .first-level__title{
+        position: absolute;
+        right: 15%;
+        top: 60px;
+   
+        .korean-title{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 25px;
+            margin: 0;
+        }
+    }
+
+}
+.first-level__title-uzbek{
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0;
+}
+.first-level__title-uzbek::after{
+    content: "";
+    display: block;
+    background-color: #0000;
+    width: 56px;
+    height: 2px;
+    
+}
+.first-level__desc{
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    
+    margin-top: 64px;
+}
+.first-level__btn{
+    padding: 15px 60px;
+    margin-top: 50px;
+    outline: none;
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #fff;
+    border: 1px solid #F1A501;
+    color: #F1A501;
+    box-sizing: border-box;
+    border-radius: 55px;
+    cursor: pointer;
+}
+.first-level__btn:hover{
+    background-color: #F1A501;
+    color: #ffff;
+}
